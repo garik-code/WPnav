@@ -1,8 +1,8 @@
 <?php
 
-  
+  include 'nav-config.php'; // create !
 
-  $pdo = new PDO('mysql:host=localhost;dbname=wp', 'root', 'm1i2r333');
+  $pdo = new PDO('mysql:host='.$nav_config['db_host'].';dbname='.$nav_config['db_name'], $nav_config['db_user'], $nav_config['db_pass']);
   $pdo->query('SET CHARSET UTF8');
   $cat = $pdo->prepare('SELECT * FROM `wp_terms`');
   $cat->execute();
