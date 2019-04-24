@@ -26,68 +26,9 @@
 ?>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link rel="stylesheet" href="lib/css/style.css">
 <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://use.fontawesome.com/04d9a3b03f.js"></script>
-
-<style media="screen">
-  #navSmarty {
-    padding: 70px 30px 20px;
-  }
-  #navSmarty h3 {
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-bottom: 6px;
-    font-size: .9375em;
-  }
-  #navSmarty .content {
-    width: 100%;
-    background-color: #eee;
-  }
-  #navSmarty .content .block {
-    background-color: #e8e8e8;
-    border-radius: 5px;
-    margin: 5px 0;
-    position: relative;
-    transition: 0.5s;
-  }
-  #navSmarty .content .block:hover {
-    background-color: #fff;
-  }
-  #navSmarty .content .block a {
-    color: #7d7d7d;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  #navSmarty .content .block i {
-    position: absolute;
-    right: 10px;
-    top: calc(50% - 7px);
-    color: #cecece;
-  }
-  #navSmarty .content .block.back {
-    background-color: #16cfc1;
-    color: #ffffff;
-  }
-  #navSmarty .content .block.back h2 {
-    color: #fff;
-  }
-  #navSmarty .content .block.back i {
-    position: relative;
-    color: #ffffff;
-    display: inline-block;
-    padding: 0 0 0 10px;
-  }
-  #navSmarty .content h2 {
-    font-size: 14px;
-    line-height: 18px;
-    padding: 15px 32px 15px 12px;
-    margin: 0;
-    font-weight: 400;
-  }
-  @media (max-width: 720px) {
-
-  }
-</style>
 
 <nav id="navSmarty">
   <h3>Каталог</h3>
