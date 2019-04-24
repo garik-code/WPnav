@@ -5,14 +5,14 @@
       <?php if($index_cat[$cat[$i]['term_id']]): ?>
 
 
-        
+
     <div class="block">
       <?php $cat_mama = $cat[$i]['slug']; ?>
       <a href="/category/<?php print $cat[$i]['slug']; ?>/" onClick="catalog('catalog_<?php print $cat[$i]['term_id']; ?>', '/category/<?php print $cat[$i]['slug']; ?>/');return false;">
         <h2><?php print $cat[$i]['name']; ?></h2> <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
       <div id="catalog_<?php print $cat[$i]['term_id']; ?>" style="display: none;">
-        <div class="block" style="background-color: #d6d6d6;">
+        <div class="block">
           <a href="/category/<?php print $cat_mama; ?>/">
             <h2>Все объявления</h2>
           </a>
