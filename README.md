@@ -1,12 +1,14 @@
 # GET STARTED
 
-Download: https://github.com/garik-code/wpnav/archive/dev.zip
-
-OR
-
 ```
 git clone https://github.com/garik-code/wpnav.git
 ```
+
+OR
+
+Download: https://github.com/garik-code/wpnav/archive/dev.zip
+
+# USE
 
 Create nav-config.php
 
@@ -24,4 +26,4 @@ Create nav-config.php
 
 ```
 
-It's very simple!
+Open the module path in the browser and enjoy using!
