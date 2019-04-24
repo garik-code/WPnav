@@ -7,7 +7,7 @@
     if(contentTest != ' '){
       $('#oldContent').html(oldContent)
       let btn = '<div class="block back"><a href="javascript:;" onClick="catalogIndex()"><h2><i class="fa fa-chevron-left" aria-hidden="true"></i> Назад</h2></a></div>'
-      $('#content').html(btn+newContent+btn)
+      $('#content').html(newContent+btn)
       document.getElementById('navSmarty').scrollIntoView()
     }else{
       location.href = url
