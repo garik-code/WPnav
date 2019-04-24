@@ -1,5 +1,9 @@
 # GET STARTED
 
+Download: https://github.com/garik-code/wpnav/archive/dev.zip
+
+OR
+
 ```
 git clone https://github.com/garik-code/wpnav.git
 ```
