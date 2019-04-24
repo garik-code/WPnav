@@ -1,5 +1,7 @@
 <?php
 
+  
+
   $pdo = new PDO('mysql:host=localhost;dbname=wp', 'root', 'm1i2r333');
   $pdo->query('SET CHARSET UTF8');
   $cat = $pdo->prepare('SELECT * FROM `wp_terms`');
