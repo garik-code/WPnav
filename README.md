@@ -24,4 +24,6 @@ Create nav-config.php
 
 ```
 
-Open the module path in the browser and enjoy using!
+Get id parent category
+
+/wpnav/?id=0 
