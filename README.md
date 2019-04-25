@@ -29,3 +29,6 @@ Get id parent category:
 ```
 http://yourdomain.com/wpnav/?id=0
 ```
+
+
+Support: mail@garik.site
