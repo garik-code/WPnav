@@ -38,7 +38,7 @@ Get id parent category:
     $id = $get_the_category[0]->parent;
 
     if($id == 220){
-      print file_get_contents('http://localhost/nav/?id=220');
+      print file_get_contents('http://localhost/wpnav/?id=220');
     }
 
 
