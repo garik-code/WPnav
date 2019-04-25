@@ -4,9 +4,7 @@
 git clone https://github.com/garik-code/wpnav.git
 ```
 
-OR
-
-Download: https://github.com/garik-code/wpnav/archive/dev.zip
+or download: https://github.com/garik-code/wpnav/archive/dev.zip
 
 # USE
 
