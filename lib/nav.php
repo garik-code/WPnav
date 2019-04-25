@@ -3,7 +3,7 @@
   <div class="content" id="content">
 
     <?php for($i=0; $i < count($cat); $i++): //   Крутим категории     ?>
-      <?php if($index_cat[$cat[$i]['term_id']]): //  ??????????   ?>
+      <?php if($index_cat[$cat[$i]['term_id']][$_GET['id']]): //  ??????????   ?>
 
     <div class="block">
 
@@ -25,6 +25,7 @@
           <?php if($cat_id == $tax[$a]['parent']): ?>
             <?php for($b=0; $b < count($cat); $b++): ?>
               <?php if($tax[$a]['term_id'] == $cat[$b]['term_id']): ?>
+
 
 
                   <div class="block">

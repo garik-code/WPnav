@@ -16,10 +16,9 @@ foreach ($cat as $key => $row) {
 array_multisort($term_order, SORT_ASC, $cat);
 
 foreach ($tax as $key => $value) {
-  if($value['taxonomy'] == 'category' && $value['parent'] == 0){
-    $index_cat[$value['term_id']] = true;
+  if($value['taxonomy'] == 'category'){
+    $index_cat[$value['term_id']][$value['parent']] = true;
   }
 }
-
 
 ?>
