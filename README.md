@@ -34,11 +34,11 @@ Get id parent category:
 <?php
 
 
-    $get_the_category = get_the_category();
-    $id = $get_the_category[0]->parent;
+    $category = get_queried_object();
+    $id = $category->term_id;
 
     if($id == 220){
-      print file_get_contents('http://localhost/wpnav/?id=220');
+      print file_get_contents('http://localhost/nav/?id=220');
     }
 
 
