@@ -24,6 +24,9 @@ Create nav-config.php
 
 ```
 
-Get id parent category
+Get id parent category:
 
-/wpnav/?id=0 
+```
+http://yourdomain.com/wpnav/?id=0
+
+```
