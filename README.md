@@ -26,8 +26,19 @@ Create nav-config.php
 
 Get id parent category:
 
-```
-http://yourdomain.com/wpnav/?id=0
+``` PHP
+<?php
+
+
+    $get_the_category = get_the_category();
+    $id = $get_the_category[0]->parent;
+
+    if($id == 220){
+      print file_get_contents('http://localhost/nav/?id=220');
+    }
+
+
+?>
 ```
 
 
