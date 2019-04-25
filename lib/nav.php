@@ -2,16 +2,16 @@
   <div id="oldContent" style="display: none;">null</div>
   <div class="content" id="content">
 
-    <?php for($i=0; $i < count($cat); $i++): //   Крутим категории     ?>
-      <?php if($index_cat[$cat[$i]['term_id']][$_GET['id']]): //  ??????????   ?>
+    <?php for($i=0; $i < count($cat); $i++): ?>
+      <?php if($index_cat[$cat[$i]['term_id']][$_GET['id']]): ?>
 
     <div class="block">
 
       <?php
 
-        $cat_mama = $cat[$i]['slug']; // Название основной категории
-        $cat_id = $cat[$i]['term_id']; // Идентификатор категории
-        $cat_name = $cat[$i]['name']; // Название категории
+        $cat_mama = $cat[$i]['slug'];
+        $cat_id = $cat[$i]['term_id'];
+        $cat_name = $cat[$i]['name'];
 
       ?>
 
@@ -27,22 +27,14 @@
             <?php for($b=0; $b < count($cat); $b++): ?>
               <?php if($tax[$a]['term_id'] == $cat[$b]['term_id']): ?>
 
-<!--  -->
-
-                  <!-- <div class="block">
-                    <a href="/category/<?php print $cat[$b]['slug']; ?>/">
-                      <h2><?php print $cat[$b]['name']; ?></h2>
-                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                    </a>
-                  </div> -->
 
                   <div class="block">
 
                     <?php
 
-                      $podcat_mama = $cat[$b]['slug']; // Название основной категории
-                      $podcat_id = $cat[$b]['term_id']; // Идентификатор категории
-                      $podcat_name = $cat[$b]['name']; // Название категории
+                      $podcat_mama = $cat[$b]['slug'];
+                      $podcat_id = $cat[$b]['term_id'];
+                      $podcat_name = $cat[$b]['name'];
 
                     ?>
 
@@ -60,9 +52,9 @@
 
                               <?php
 
-                                $podpodcat_mama = $cat[$x]['slug']; // Название основной категории
-                                $podpodcat_id = $cat[$x]['term_id']; // Идентификатор категории
-                                $podpodcat_name = $cat[$x]['name']; // Название категории
+                                $podpodcat_mama = $cat[$x]['slug'];
+                                $podpodcat_id = $cat[$x]['term_id'];
+                                $podpodcat_name = $cat[$x]['name'];
 
                               ?>
 
@@ -81,9 +73,6 @@
                     </div>
 
                   </div>
-
-
-<!--  -->
 
               <?php endif; ?>
             <?php endfor; ?>
