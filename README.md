@@ -1,4 +1,4 @@
-# EXAMPLE
+# WordPress Category Navigation
 
 ![Demo](https://user-images.githubusercontent.com/1707/48204972-43569e00-e37c-11e8-9cf3-b86e3dc19ee9.png)
 
