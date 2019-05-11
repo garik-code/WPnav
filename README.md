@@ -34,12 +34,12 @@ Get id parent category:
 <?php
 
 
-    $category = get_queried_object();
-    $id = $category->term_id;
+  $category = get_queried_object();
+  $id = $category->term_id;
 
-    if($id == 220){
-      print file_get_contents('http://localhost/nav/?id=220');
-    }
+  if($id == 220 || $id == 235){
+    print file_get_contents('http://localhost/nav/?id='.$id);
+  }
 
 
 ?>
